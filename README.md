@@ -91,7 +91,8 @@ You may change `Naive` to other reasoning structures as follows:
 
 You may change `DenseRAG` to other memory mechanisms referred in `config.py`.
 
-### Citation
+## Citation
+
 ```
 @article{zhang2025explicit,
   title={Explicit vs Implicit Memory: Exploring Multi-hop Complex Reasoning Over Personalized Information},
@@ -100,3 +101,7 @@ You may change `DenseRAG` to other memory mechanisms referred in `config.py`.
   year={2025}
 }
 ```
+
+## Contact
+
+If you have any questions, please feel free to contact us via `zeyuzhang@ruc.edu.cn`.
