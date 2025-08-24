@@ -1,20 +1,13 @@
 # Explicit v.s. Implicit Memory: Exploring Multi-hop Complex Reasoning Over Personalized Information
 
 ## Introduction
-Memory serves as a crucial component for achieving agent personalization, responsible for storing and utilizing personalized information of users.
-While previous research has proposed memory approaches to enhance personalization, they typically focus on user alignment or single-hop question answering, overlooking the importance of multi-hop personalized reasoning.
-In real-world applications, complex tasks often require integrating multiple pieces of user information through multi-hop reasoning, which poses significant challenges for current memory mechanisms.
-To address this gap, we propose the multi-hop personalized reasoning task to investigate different memory mechanisms in multi-hop reasoning on personalized information.
-We explicitly define this task and construct a dataset along with a unified evaluation framework.
-We implement various explicit and implicit memory methods to conduct comprehensive experiments. We explore their performance on this task from multiple perspectives and analyze their advantages and limitations.
-We further explore hybrid approaches that combine both paradigms and propose the HybridMem method to address their limitations.
-We demonstrate the effectiveness of our proposed model through experiments.
+In large language model-based agents, memory serves as a critical capability for achieving personalization by storing and utilizing users' information. Although some previous studies have adopted memory to implement user personalization, they typically focus on preference alignment and simple question-answering. However, in the real world, complex tasks often require multi-hop reasoning on a large amount of user information, which poses significant challenges for current memory approaches. To address this limitation, we propose the multi-hop personalized reasoning task to explore how different memory mechanisms perform in multi-hop reasoning over personalized information. We explicitly define this task and construct a dataset along with a unified evaluation framework. Then, we implement various explicit and implicit memory methods and conduct comprehensive experiments. We evaluate their performance on this task from multiple perspectives and analyze their strengths and weaknesses. Besides, we explore hybrid approaches that combine both paradigms and propose the HybridMem method to address their limitations. We demonstrate the effectiveness of our proposed model through extensive experiments.
 
 ![Introduction](assets/figure1.png)
 
 ## Major Contributions
-- We identify and analyze MPR tasks, highlighting their unique challenges for agent memory compare with previous works.
-- We formally define MPR tasks and construct a new dataset with a unified evaluation framework for systematically exploring different memory methods under MPR tasks.
+- We identify the MPR tasks, highlighting their unique challenges for agent memory compared to previous works.
+- We formally define MPR tasks and construct a new dataset with a unified evaluation framework for systematically exploring different memory methods on MPR tasks.
 - We conduct comprehensive experiments on explicit, implicit, and hybrid memory approaches, presenting key findings and proposing a new hybrid memory method for long-hop reasoning tasks.
 
 ![Pipeline](assets/figure2.png)
@@ -100,5 +93,10 @@ You may change `DenseRAG` to other memory mechanisms referred in `config.py`.
 
 ### Citation
 ```
-[TBD]
+@article{zhang2025explicit,
+  title={Explicit vs Implicit Memory: Exploring Multi-hop Complex Reasoning Over Personalized Information},
+  author={Zhang, Zeyu and Zhang, Yang and Tan, Haoran and Li, Rui and Chen, Xu},
+  journal={arXiv preprint arXiv:2508.13250},
+  year={2025}
+}
 ```
